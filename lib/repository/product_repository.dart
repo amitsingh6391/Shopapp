@@ -10,7 +10,7 @@ import 'package:injectable/injectable.dart';
 @LazySingleton()
 class ProductRepository {
   final Dio _dio = Dio();
-  static const int _perPage = 10;
+  static const int _perPage = 20;
 
   //fetch products from server with paginanation;
 
